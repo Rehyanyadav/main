@@ -4,7 +4,7 @@ int main()
 //wap to find the area of triangle
 
 {
-       int area ,base,height;
+       float area ,base,height;
 
        cout<<"enter  base :";
        cin>>base;
