@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
 
-    //wap to fuind the largest between two no.
+    //wap to find the largest between two no.
     int num1;
     int num2;
     cout<<"enter the num 1 and num 2  :";
