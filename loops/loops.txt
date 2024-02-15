@@ -1,0 +1,5 @@
+1) for loop
+2) break and continue
+3) while and do while loop
+4) questions using operators
+5) pattern printing problems 
