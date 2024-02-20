@@ -1,0 +1,7 @@
+some libraries in functions 
+1) sqrt()
+2) cbrt()
+3) min()
+4)max()
+5)pow()
+

@@ -1,0 +1,3 @@
+function is used to tackle  repetition 
+there are certain pieces of code  that we use lots of times
+functions can be made unlimited times 
