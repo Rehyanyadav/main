@@ -1,3 +1,17 @@
 function is used to tackle  repetition 
 there are certain pieces of code  that we use lots of times
 functions can be made unlimited times 
+
+Difference between call by value and call by refrence 
+
+Call by value 
+1) A copy of the value is passed to the functions 
+2) changes made inside the functions on the other functions 
+3) Actual and formal agruments will created at different memory locations 
+
+Call by value 
+1) An address of the value is passsed to the functions 
+2)changes made inside the functions are reflected outside the functions 
+as well 
+3) Actual and formal agruments will be created at same memory locations 
+ 
