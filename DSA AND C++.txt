@@ -1,0 +1,41 @@
+ DSA roadmap
+
+* Start with the basics: 
+    * Encapsulation
+    * Inheritance
+    * Recursion
+    * Iteration through loops
+    * Decision making Statements
+    * Polymorphism
+    * Functions and methods
+    * Pointers(in case of C language)
+    * Arrays
+
+* Start Problem Solving: 
+    * Fibonacci series
+    * Factorisation
+    * Finding the prime number
+    * Factorial of a number
+    * Selection sort of an array
+    * Bubble Sort
+    * Linear search
+    * Binary Search
+
+* Understand the Big O concept: 
+
+* Start with basic DSA concepts: 
+    * Stack
+    * Queue
+    * Arrays
+    * Trees
+    * Graphs
+    * Hashmaps
+    * LinkedList
+
+* Sorting algorithms
+* Searching Algorithms
+* Merging Algorithms
+* Depth-first search
+* Breadth-first search
+* Tree Traversal Algorithms
+* Graph Search Algorithms

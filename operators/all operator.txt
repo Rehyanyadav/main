@@ -1,0 +1,15 @@
+There are  3 types of  operator 
+1) Binary Operator 
+2) Uninary Operator 
+3) Ternary Operator  
+
+and these are sub divide into  many types 
+
+
+like 
+
+1) Binary operators
+
+ i) Arithmetic operator  --->     + ,- *,/, %
+ ii) Relational operator --->   < , <= ,=>,>, ==,!=   
+ iii) Logical oprator    --->    && , 
