@@ -12,4 +12,18 @@ like
 
  i) Arithmetic operator  --->     + ,- *,/, %
  ii) Relational operator --->   < , <= ,=>,>, ==,!=   
- iii) Logical oprator    --->    && , 
+ iii) Logical oprator    --->    && , ||, !
+ iv) Assignment operator --->   = , += , -= , /= , %=
+
+
+ 2) Unary operators
+ i) post increment operator --->      x++
+ ii) post decrement operator --->     x--
+ iii) pre decrement operator --->     --x
+ iv) pre increment operator --->      ++x
+
+
+  3)Ternary operators
+  conditonal operator  -->     ?:
+  
+   
