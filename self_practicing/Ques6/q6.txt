@@ -20,4 +20,4 @@ Constraints
 Sample Input 1 :
 10000 A
 Sample Output 1 :
-17600x
+17600
