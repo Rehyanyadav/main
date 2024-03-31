@@ -15,7 +15,8 @@ int x = 12;
 int y = 45;
 cout<<x<<" "<<y<<endl;
 swap(&x,&y);
-cout<<x<<" "<<y<<endl;
+cout<<x<<" "<<y
+<<endl;
 
     return 0;
 }

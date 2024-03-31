@@ -4,8 +4,8 @@ int main()
 {
 
     int x = 4;
-    cout<<x<<endl;
     x++;//post increment, it uses the variable value and increment it 
+cout <<x <<endl;
 
    
     cout<<x<<endl;
@@ -17,7 +17,7 @@ int main()
      x--; //post decrement 
      --x; //pre decrement 
 
-     
+    
 
 
 
