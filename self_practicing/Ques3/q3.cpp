@@ -10,8 +10,7 @@ int main() {
    cin >> step;
 
  
- if (!(0 <= start && start <= 90 && start <= end && end
-<= 900 && 0<= step && step <= 80)){
+ if (!(0 <= start && start <= 90 && start <= end && end<= 900 && 0<= step && step <= 80)){
 
 cout << "Invalid input values." <<endl;
 return 1;

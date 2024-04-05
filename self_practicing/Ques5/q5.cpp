@@ -1,17 +1,18 @@
 #include <iostream>
+using namespace std;
 
 int main() {
     int num;
 
     do {
 
-        std::cin >> num;
+    cin >> num;
 
         if (num == 15) {
             continue;
         }
         
-        std::cout << num<<" ";
+        cout << num<<" ";
 
     } while (num != 50);
 
