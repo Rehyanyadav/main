@@ -16,5 +16,14 @@ cout <<"a^b" <<(a^b)<< endl;
 
 // these are bitwise operator 
 
+
+
+
+//right shift 
+cout << (17>>1)<<endl;
+cout << (17>>2)<<endl;
+cout<<(19<<1)<<endl;
+cout<<(21<<2)<<endl;
+
 return 0;
  } 
