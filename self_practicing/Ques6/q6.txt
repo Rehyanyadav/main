@@ -15,8 +15,10 @@ Note for C++ users :
 To round off the value, please include<cmath> library at the start of the program and round off the values in this way.
 int ans = round(yourFinalValue);
 Detailed explanation ( Input/output format, Notes, Images )
+
 Constraints
 0<=salary<=10000
+
 Sample Input 1 :
 10000 A
 Sample Output 1 :
