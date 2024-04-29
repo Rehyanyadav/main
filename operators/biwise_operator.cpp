@@ -14,6 +14,7 @@ cout <<"~a" << ~a << endl;
 //bitwise xor operator 
 cout <<"a^b" <<(a^b)<< endl;
 
+// these are bitwise operator 
 
 return 0;
  } 
