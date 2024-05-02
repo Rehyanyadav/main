@@ -1,16 +1,14 @@
+
 #include<iostream>
 using namespace std;
-
-double inchesToCentimeters(double inches){
-   if (inches <0){
-      cout <<"the no is nonnegative";
-   return -1.0;
-   }
-else 
-return 2.54*inches;
-
+void demo(int a, int b){
+    cout << a << " " << b;
 }
-int main (){
-cout <<inchesToCentimeters;
+int main()
+{
 
+ int a = 5;
+    int b = 15; 
+    demo(a);
+    return 0;
 }
