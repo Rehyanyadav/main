@@ -1,9 +1,21 @@
 
 # C++ with DSA
 
-This repository is based on the questions of c++ and DSA topics 
-all level question are available in the main file.
+# This repository is based on the questions of c++ and DSA topics. 
+- All level question are available open folder and explore the questions.
 
+## LeetCode questions
+- Leet code questions are include in folder of lead code problem with sub divided into easy medium and hard problems.
+
+## Interview questions (asked in Google, microsoft etc)
+
+- Interview questions are added in the self practiced section go and check the questions.
+
+## Roadmap
+
+- C++ topics    
+
+- DSA topics 
 
 ## Badges
 
@@ -19,11 +31,6 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
 - [@rehyan yadav](https://www.github.com/octokatherine)
 
 
-## Roadmap
-
-- C++ topics    
-
-- DSA topics 
 
 
 ## Feedback
