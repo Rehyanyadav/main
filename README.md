@@ -5,8 +5,8 @@
 # all level question are available in the main file.
 
 ## LeatCode question 
--Leat code questions are include in folder of leadcodeproblem with sum divided into easy medium and hard problems 
--Interview questions are added in the selfpracticed section go and check the questions 
+- Leat code questions are include in folder of leadcodeproblem with sum divided into easy medium and hard problems 
+- Interview questions are added in the selfpracticed section go and check the questions 
 
 ## Roadmap
 
