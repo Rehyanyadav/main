@@ -5,7 +5,9 @@
 - All level question are available open folder and explore theq questions 
 
 ## LeatCode question 
-- Leat code questions are include in folder of leadcodeproblem with sum divided into easy medium and hard problems 
+- Leat code questions are include in folder of leadcodeproblem with sum divided into easy medium and hard problems
+
+## Interview question (asked in Google, microsoft etc
 - Interview questions are added in the selfpracticed section go and check the questions 
 
 ## Roadmap
