@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+using namespace std;
 
 int main() {
     int salary;
@@ -8,9 +9,9 @@ int main() {
     int total_salary;
 
    
-    std::cin >> salary;
+   cin >> salary;
   
-    std::cin >> grade;
+   cin >> grade;
 
     hra = 0.2 * salary;
     da = 0.5 * salary;
@@ -27,7 +28,7 @@ int main() {
 
     total_salary = salary + hra + da + allow - pf;
     total_salary = round(total_salary);
-    std::cout<< total_salary;
+   cout<< total_salary;
 
 
     return 0;

@@ -1,0 +1,6 @@
+Create a function that determines whether a given number N belongs
+ to the Fibonacci sequence.
+  If N is found in the Fibonacci sequence,
+   the function should return true; 
+   otherwise, it should return false.
+    IN C++ WITHOUT ANY LIBRARY 
