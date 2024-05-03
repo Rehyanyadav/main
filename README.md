@@ -1,15 +1,15 @@
 
 # C++ with DSA
 
-# This repository is based on the questions of c++ and DSA topics 
-- All level question are available open folder and explore theq questions 
+# This repository is based on the questions of c++ and DSA topics. 
+- All level question are available open folder and explore the questions.
 
-## LeatCode question 
-- Leat code questions are include in folder of leadcodeproblem with sum divided into easy medium and hard problems
+## LeetCode questions
+- Leet code questions are include in folder of lead code problem with sub divided into easy medium and hard problems.
 
-## Interview question (asked in Google, microsoft etc)
+## Interview questions (asked in Google, microsoft etc)
 
-- Interview questions are added in the selfpracticed section go and check the questions 
+- Interview questions are added in the self practiced section go and check the questions.
 
 ## Roadmap
 
