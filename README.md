@@ -2,7 +2,7 @@
 # C++ with DSA
 
 # This repository is based on the questions of c++ and DSA topics 
-# all level question are available in the main file.
+- All level question are available open folder and explore theq questions 
 
 ## LeatCode question 
 - Leat code questions are include in folder of leadcodeproblem with sum divided into easy medium and hard problems 
