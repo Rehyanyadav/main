@@ -2,19 +2,13 @@
 using namespace std;
 int main(){
 
+int array []= {1,2,3,4};
+cout<<sizeof(array)<< endl ;//size of array 
+cout<<sizeof(array[0])<< endl ;//length of array  one element 
+cout<<sizeof(array[1])<< endl ;//length of array  one element 
 
-    int n ;
-    cout <<"enter the size of arrray";
+ 
+return 0;
 
-    cin>>n;
-    int input[100];
-   for (int i =0; i<n; i++){
-    cin>>   input [i];
 
-   }
-
-   for (int i = 0; i<n ;i++){
-    cout <<input [i]<<endl;
-
-   }
-}  
+}
