@@ -1,6 +1,9 @@
 
 # C++ with DSA
 
+
+# Soon you will get the structured questions  with all topics 
+
 # This repository is based on the questions of c++ and DSA topics. 
 - All level question are available open folder and explore the questions.
 
@@ -9,7 +12,7 @@
 
 ## Interview questions (asked in Google, microsoft etc)
 
-- Interview questions are added in the self practiced section go and check the questions.
+- underconstrunction soonn!!
 
 ## Roadmap
 
