@@ -1,5 +1,4 @@
-#include<iostream>
-using namespace std;
+
 
 class students {
 
@@ -30,6 +29,8 @@ class students {
     }
 };
 
+#include<iostream>
+using namespace std;
 
 int main()
 {
