@@ -1,0 +1,14 @@
+There are 3 types of linked lists
+1) Singly Linked list 
+2) Double Linked list
+3) Circular Linked list
+
+
+Q) What is Linked List ?
+-> Collection of Nodes is called Linked List 
+
+Q) What is Node ?
+-> Node store Data And it's Address
+
+
+
