@@ -1,36 +1,38 @@
-
 #include<iostream>
 using namespace std;
+
+
 
 class Node {
-public:
-    int data;
-    Node *next;
- Node(int data ){
 
-    this -> data = data;
-    next = NULL;
+   public:
+   int data;
+Node *next;   //this contains address of next node 
+
+
+ //making constructor if anyone add data to note
+ Node (int data){
+
+   this -> data = data;
+   next = NULL;
+
 
  }
- };
 
 
+};
 
+int main (){
 
-
-#include<iostream>
-using namespace std;
-int main()
-{
-//statically 
-
-  
 Node n1(1);
-Node *head =&n1;
-Node n2(20000);
-  n1.next =&n2;
-  cout <<n1.data<<" "<<n2.data<<endl;
+Node n2(2);
 
-   
-    return 0;
+
+//Connecting nodes by setting address of scnd node to first 
+
+  n1.next= &n2;
+
+cout << n1.data<<" "<<n2.data<<endl;
 }
+
+
