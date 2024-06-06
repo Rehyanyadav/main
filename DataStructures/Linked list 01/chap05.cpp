@@ -1,3 +1,14 @@
+/*
+
+*what if we lost the head address of the Linked list ?
+
+*WE have to make a temp pointer and travel through by this pointer 
+*variables 
+
+*/
+
+
+
 #include<iostream>
 using namespace std;
 
@@ -21,12 +32,15 @@ Node (int data){
 
 
 
-//function
+//* Funtion Starts here !!
 
 void print (Node *head){
-while (head != NULL){
-cout << head -> data<<endl;
-head =  head -> next;
+    Node * temp = head; //*creating temp pointer variable
+
+
+while (temp != NULL){
+cout << temp -> data<<endl;
+temp =  temp -> next;
 
 }
 }
