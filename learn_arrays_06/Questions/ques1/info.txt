@@ -1,0 +1,17 @@
+Q 1) Find the largest element in an array 
+
+
+We have 2 solution 
+1) bruteforce solution 
+2) Optimal solution
+
+
+
+1) bruteforce 
+we sort the array then the last  last element will 
+be the largest element
+
+2) Optimal 
+We will make a variable name largest will value largest [0]
+and by traversing throughout the array we will check the element is 
+greater or not and updating it 

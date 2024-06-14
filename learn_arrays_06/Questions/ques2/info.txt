@@ -1,0 +1,32 @@
+Q) Find the second largest element in an array 
+
+
+1) bruteforce solution
+sort the array in ascending order and then 
+The element present at the second index is the second smallest element
+The element present at the second index from the end is the second largest element
+
+
+
+2) better solution
+find the smallest and largest element in the array in  single traversal.
+
+After this , we once again traversal the array and find and element
+that is just greater than the smallest element we just found.
+
+We find the largest element is just smaller than the largest element 
+we just found.
+
+
+3) Optimal Approach 
+
+If the current element is smaller than ‘small’, then we update second_small and small variables
+Else if the current element is smaller than ‘second_small’ then we update the variable ‘second_small’
+Once we traverse the entire array, we would find the second smallest element in the variable second_small.
+Here’s a quick demonstration of the same.
+Second Largest Algo:
+
+If the current element is larger than ‘large’ then update second_large and large variables
+Else if the current element is larger than ‘second_large’ then we update the variable second_large.
+Once we traverse the entire array, we would find the second largest element in the variable second_large.
+Here’s a quick demonstration of the same.
