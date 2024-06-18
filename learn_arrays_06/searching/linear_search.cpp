@@ -30,7 +30,7 @@ int main()
 }
 
 int data;
-cout<<" enter the data to be foudn out : ";
+cout<<" enter the data to be found out : ";
 cin >>data;
 
 int result = search (arr,n , data);

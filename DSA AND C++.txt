@@ -1,4 +1,4 @@
- DSA roadmap
+DSA ROADMAP
 
 * Start with the basics: 
     * Encapsulation
@@ -20,7 +20,7 @@
     * Bubble Sort
     * Linear search
     * Binary Search
-
+    
 * Understand the Big O concept: 
 
 * Start with basic DSA concepts: 
