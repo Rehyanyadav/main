@@ -34,3 +34,50 @@ The initial two pairs of brackets are balanced.
    Hence the output prints 'false'.
 
 */
+
+
+
+
+//* here is the function for the question 
+
+
+#include<iostream>
+using namespace std;
+bool isBalanced(const string &expression){
+
+
+     int balance =0;
+     for (char ch: expression){
+        if ( ch == '{'){
+            ++balance;
+            
+
+        }
+        else if (ch=='}'){
+            --balance ;
+            if (balance <0)
+            {
+                return false ;
+
+            }
+
+
+        }
+     }
+
+
+return balance ==0;
+
+}
+
+
+
+int main (){
+string str;
+cin >>str;
+cout<<(isBalanced(str));
+
+
+    return 0;
+
+}

@@ -55,6 +55,6 @@ while (n!=0){ // condtion that while  n is not equal to 0
 }
 int answer = product -sum ; // here is the final answer subtracting the product and sum 
 
-cout<<answer<<endl;ˀ
+cout<<answer<<endl;
 
 }

@@ -1,29 +1,28 @@
-//*wap to find the  sum of digit of a given number
+//*wap to find the  sum of digit of a given number using pointer
 
 
-#include<iostream>
+#include <iostream>
 using namespace std;
-int sumofdigit (int num){
-    int sum = 0 ;
-    while(num != 0){
-        sum += num%10;
-        num /= 10;
 
+int sumOfDigits(int* num) {  // functions take pointer as input 
+
+    int sum = 0;
+    while (*num!= 0) {
+        sum += *num % 10;
+        *num /= 10;
     }
     return sum;
-
-
 }
-int main()
-{
 
+int main() {
     int num;
-    cout<<"enter the number ";
-    cin >>num;
+    cout << "Enter a number: ";
+   cin >> num;
 
-    int result = sumofdigit(num);
-    cout<<result;
+    int* ptr = &num;
+    int sum = sumOfDigits(ptr);
 
+   cout << "Sum of digits: " << sum <<endl;
 
     return 0;
 }

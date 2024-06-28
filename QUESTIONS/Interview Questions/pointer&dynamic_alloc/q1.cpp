@@ -59,12 +59,15 @@ Sample Output 2:
 #include<iostream>
 using namespace std;
 
-void movetozeros(int arr[], int n) {
-    
-    int insertion = 0;
+void movetozeros(int arr[], int n) {  //*  void function with argument array with size n 
 
-    for (int i = 0; i < n; i++) {
-        if (arr[i] != 0) {
+    
+    int insertion = 0;  //* it initalizes a variable insertion to Zero 
+    //* this will keep the track of the position where next non-zero element should be inserted
+
+
+    for (int i = 0; i < n; i++) {  //* loop started from 0 to n-1
+        if (arr[i] != 0) {  //* check that 
             arr[insertion] = arr[i];
             insertion++;
         }
@@ -73,27 +76,28 @@ void movetozeros(int arr[], int n) {
     while (insertion < n) {
         arr[insertion] = 0;
         insertion ++;
-        
     }
 }
 
 int main() {
-    int t;
-    cin >> t;
+  
+int t;
+cin>>t; // * added this line to read the number of test cases 
 
     while (t--) {
-        int n;
+        int n;  
         cin >> n;
 
-        int arr[n];
+        int arr[n];  //* array with size n 
         for (int i = 0; i < n; i++) {
-            cin >> arr[i];
+            cin >> arr[i];  //* taking input of array element 
         }
 
-        movetozeros(arr, n);
+        movetozeros(arr, n);  //* calling function 
 
         for (int i = 0; i < n; i++) {
-            cout << arr[i] << " ";
+            cout << arr[i] << " "; //* output the array 
+
         }
         cout << endl;
     }

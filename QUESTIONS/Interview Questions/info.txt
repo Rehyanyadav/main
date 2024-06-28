@@ -1,0 +1,4 @@
+Hey Guys in this section you will find the 
+Interview  questions  pointers dynamic memory allocation
+
+
