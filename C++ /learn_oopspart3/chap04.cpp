@@ -1,4 +1,5 @@
-//* Function overriding 
+//* Run Time polymorphism
+
 #include<iostream>
 using namespace std;
 
@@ -22,7 +23,7 @@ class car : public Vehicle{
     int numGears;
 
 
-    void print (){
+virtual void print (){
         cout<<"car "<<endl;
 
     }
@@ -50,6 +51,6 @@ v2->print();
 
 
 
-
+ 
 
 }
