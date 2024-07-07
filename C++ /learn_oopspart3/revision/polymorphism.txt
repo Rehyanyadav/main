@@ -1,0 +1,15 @@
+Two types of polymorphism
+
+1) Compile time polymorphism
+2)  Run time   polymorphism 
+
+
+1) Compile time  polymorphism
+Object is bounded by function call during compile time
+this can be used by
+i)Function overloading and
+ii)Operator overloading 
+
+
+2) Run time polymorphism
+It is achieved by using virtual function
