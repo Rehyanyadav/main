@@ -1,3 +1,6 @@
+//printing the Tree and Taking input 
+ 
+
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -18,7 +21,16 @@ public:
 void printTree(TreeNode<int> *root)
 { //* print the tree functions
 
-    cout << root->data;
+if (root == NULL)
+{
+    return;
+}    cout << root->data<<":";
+    for (int i  =0 ; i<root->children.size();i++)
+    {
+        cout<<root->children[i]->data<<",";
+    }
+    cout<<endl;
+
     for (int i = 0; i < root->children.size(); i++)
     {
 

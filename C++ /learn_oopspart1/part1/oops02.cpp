@@ -9,6 +9,7 @@ OF CLASS
 
 using namespace std; 
 class  students{
+   public: 
   int name ;
   int age ;
 
@@ -19,7 +20,6 @@ class  students{
 // this file creating objects 
 int main(){
  //creating objects statically 
-
     students s1;
     students s2;
 s1.age = 20;
@@ -30,14 +30,13 @@ cout << s1.name;
 
 
 //creating objects dynamically
-
      students *S6 = new students;
 (*S6).age = 10;
 (*S6).name = 101;
 //shortcut of the adding properties
 
-s1->age =20;
-s2->name =101;
+// s1->age =20;
+// s2->name =101;
 
 
    return 0;

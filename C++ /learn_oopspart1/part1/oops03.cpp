@@ -8,18 +8,19 @@ OF CLASS
 #include <iostream>
 
 using namespace std;
+//* class STUDENTS WITH THEIR PROPERTIES 
 class students
 {
 public:
     int name;
     int age;
 };
-// class made in same code  but sepeately
 
-// this file creating objects
+
+//*  this file creating objects
 int main()
 {
-    // creating objects statically
+    //* creating objects statically
 
     students s1;
     students s2;
@@ -28,7 +29,7 @@ int main()
     cout << s1.age<<endl;
     cout << s1.name<<endl;
 
-    // creating objects dynamically
+    //* creating objects dynamically
 
     students *S6 = new students;
     (*S6).age = 10;
