@@ -1,5 +1,4 @@
-//*inserting Node at Position
-
+//*deleting Node at Position
 #include <iostream>
 using namespace std;
 
@@ -80,6 +79,23 @@ void display(node *head)
     cout << "NULL" << endl;
 }
 
+void updateAtposition(node* &head,int pos, int value){
+    node*temp  = head;
+    int current_pos = 0;
+    while(current_pos!= pos){
+        temp = temp->next;
+        current_pos++;
+        if(temp == NULL)
+        {
+            cout << "Position out of range" << endl;
+            return;
+        }
+    }
+
+    //temp will be pointing to the kth node
+    temp ->data = value;
+}
+
 int main()
 {
     node *head = NULL;
@@ -91,6 +107,9 @@ int main()
     insertatTail(head, 5);
     display(head);
     insertAtPosition(head, 3, 1);
+    display(head);
+
+    updateAtposition(head, 2, 5);
     display(head);
     return 0;
 }
