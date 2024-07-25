@@ -25,6 +25,7 @@ Node *next;   //this contains address of next node
 int main (){
 
 Node n1(1);
+
 Node n2(2);
 
 
@@ -33,6 +34,9 @@ Node n2(2);
   n1.next= &n2;
 
 cout << n1.data<<" "<<n2.data<<endl;
+cout<<&n1<<endl;
+cout<<&n2;
+
 }
 
 
