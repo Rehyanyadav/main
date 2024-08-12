@@ -5,6 +5,14 @@ department, basic pay. Calculate the gross pay of each employees as follows:
 Gross pay = basic pay + HR + DA
 HR=25% of basic and DA=75% of basic. 
 */
+
+
+
+
+
+
+
+
 #include <stdio.h>
 
 struct Employee {
@@ -30,15 +38,15 @@ int main() {
     for (int i = 0; i < n; i++) {
         printf("\nEnter details for Employee %d:\n", i + 1);
         printf("Name: ");
-        scanf("%c", employees[i].name);
+        scanf("%49s", employees[i].name); // changed to %49s to prevent buffer overflow
         printf("Gender: ");
-        scanf(" %c", &employees[i].gender);
+        scanf(" %c", &employees[i].gender); // removed \n
         printf("Designation: ");
-        scanf("%c", employees[i].designation);
+        scanf("%49s", employees[i].designation); // changed to %49s to prevent buffer overflow
         printf("Department: ");
-        scanf("%c", employees[i].department);
+        scanf("%49s", employees[i].department); // changed to %49s to prevent buffer overflow
         printf("Basic Pay: ");
-        scanf("%f", &employees[i].basicPay);
+        scanf("%f", &employees[i].basicPay); // removed \n
 
         calculateGrossPay(&employees[i]);
     }
@@ -56,4 +64,3 @@ int main() {
 
     return 0;
 }
-

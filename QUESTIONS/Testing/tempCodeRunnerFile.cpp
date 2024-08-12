@@ -1,1 +1,0 @@
- node* head= NUL

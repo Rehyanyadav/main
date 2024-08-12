@@ -3,8 +3,6 @@
 #include<stdio.h>
 
 
-
-
 void takeinput(int arr[], int n ){
 
     for (int i = 0; i < n; i++)
@@ -32,7 +30,6 @@ int  largest(int arr[], int n){
 
 }
 return max;
-
 }
 int  smallest(int arr[], int n){
     int min = arr[0];
@@ -44,7 +41,6 @@ int  smallest(int arr[], int n){
     }
 }
 return min;
-
 }
 int main(){
 int n;
@@ -52,14 +48,11 @@ printf("Enter the size of the array\n");
 scanf("%d",&n);
 int arr[n];
 takeinput(arr,n);
-
-
 printarray(arr,n);
 
 //printing the largest element 
 printf("The largest element of the array is %d\n",largest(arr,n));
 printf("The smallest element of the array is %d\n",smallest(arr,n));
-
     return 0;
 
 }

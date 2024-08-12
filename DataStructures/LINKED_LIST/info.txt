@@ -1,0 +1,12 @@
+Topics of Linked List 
+
+1) Making Linked List  - Making Class , creating objects  statically dynamically -Done
+2) Printing Linked List 
+3) Singly , Doubly , Circular Linked list 
+4) Taking input  in linked list 
+5) Insertion of Node At Beginning
+6) Insertion of Node at Last 
+7) Insertion of Node at anywhere in Middle 
+8) Deleting Node in Linked List  - head pointer , any Node 
+9) Inserting Node Recursively
+10)Deleting Node Recursively 

@@ -14,7 +14,7 @@ int main()
 vector<int> a(4,8);
 a.pop_back();
 for(int i = 0; i<a.size(); i++){
-    cout <<a[i]
+    cout <<a[i];
 }
 
 
