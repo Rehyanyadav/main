@@ -1,55 +1,45 @@
 //*write programm in C to sort the dynamic array of n numbers
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
 
-
-
-void selectionsort(int arr[], int n){
-for(int i =0; i<n-1; i++){
-
-    int min = arr[i];
-    int minIndex = i;
-    for(int j =i+1; j<n; j++){
-        
+void takeinput(int arr[], int n) {
+    for (int i = 0; i < n; i++) {
+        printf("Enter the %d element of the array\n", i);
+        scanf("%d", &arr[i]);
     }
-
 }
 
-
-}
-int main(){
-
-int n;
-printf("Enter size : ");
-scanf("%d",&n);
-
-int *arr =(int *)malloc(n*sizeof(int));
-   printf("enter elements: ");
-for(int i =0; i<n; i++){
-
- 
-    scanf("%d",&arr[i]);
-
-
-}
-printf("The array is :");
-for(int i =0; i<n; i++){
-
-    printf(" %d\n",arr[i]);
-
+void bubbleSort(int arr[], int n) {
+    for (int i = 0; i < n - 1; i++) {
+        for (int j = 0; j < n - i - 1; j++) {
+            if (arr[j] > arr[j + 1]) {
+                int temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+            }
+        }
+    }
 }
 
-
-//*sorting the array here !!
-
-selectionsort(arr,n);
-for(int i =0; i<n; i++){  
-    printf("%d\n",arr[i]);      
+void printarray(int arr[], int n) {
+    for (int i = 0; i < n; i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
 }
 
-
-
+int main() {
+printf("name - Rehyan yadav\n");
+printf("roll no-2330104\n");
+    int n;
+    printf("Enter the size of the array\n");
+    scanf("%d", &n);
+    int arr[n];
+    takeinput(arr, n);
+    printf("The array is\n");
+    printarray(arr, n);
+    bubbleSort(arr, n);
+    printf("The array after sorting is\n");
+    printarray(arr, n);
 
     return 0;
-
 }

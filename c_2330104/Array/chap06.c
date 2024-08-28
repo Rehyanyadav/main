@@ -4,7 +4,8 @@
 #include<stdlib.h>
 
 int main(){
-
+printf("name - Rehyan yadav\n");
+printf("roll no-2330104\n");
 int n;
 printf("Enter Size : ");
 scanf("%d",&n);

@@ -21,13 +21,15 @@ void reverseArray(int arr[], int start, int end)
 int main()
 {
 
-    //* Entering the size of the array 
+
+printf("name - Rehyan yadav\n");
+printf("roll no-2330104\n");
     int n;
     printf("enter the size of the array :");
 
     scanf(" %d", &n);
 
-//* making the array dynamically
+
     int *arr = (int *)malloc(n * sizeof(int));
     
  for(int i =0; i<n; i++){
@@ -35,8 +37,6 @@ int main()
     scanf("%d", &arr[i]);
  }
 
-
-//* printing the array 
 for(int i =0; i<n; i++){
     printf("%d\n", arr[i]);
 }
@@ -49,4 +49,5 @@ for(int i =0; i<n; i++){
 
    }
     return 0;
+
 }
