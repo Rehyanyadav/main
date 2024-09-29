@@ -1,85 +1,65 @@
-//* QUEUES using ARRAY
+
+
+//* QUEUES USING ARRAYS
 
 #include<iostream>
-
 using namespace std;
-template<typename T>
 
-class Queues {
- T *data;
- int nextIndex;
- int firstIndex;
- int size ;
- int capacity;
+template <class T>
+class StackUsingArray{
 
-public:
-    Queues(int s){
-        data = new T [s];
-        nextIndex  = 0;
-        firstIndex = 0;
-        size = 0;
-        capacity = s;
+    T *data;
+    int nextIndex;
+    int frontIndex;
+    int size;
+    int capacity;
+
+
+//Constructor
+    public:
+    StacUsingArray( int s){
+        data = new [capacity];
+        nextIndex=0;
+        frontIndex =-1;
+        size= 0;
+capacitY = s;
+int GetSize(){
+
+    return size;
+
+}
+
+int isEmpty(){
+    if (size ==0){
+    cout<<"Stack is empty"<<endl;
+    }
+}
+
+
+//* inserting elements
+void enqueue(element){
+if (size == capacity){
+cout<<"stack is full!!"<<endl;
+return;
+}
+
+data[nextIndex] = element;
+nextIndex = (nextIndex+1)%capacity;
+if (frontIndex==-1){
+    frontIndex = 0;
+
+}
+
+size++;
     }
 
-    int GetSize(){
-        return size;
+T front(){
+    if (size ==0){
+        cout<<"stack is empty"<<endl;
+        return 0;
     }
+    return data[frontIndex];
+}
 
-    bool isEmpty(){
-        return size == 0;
-    }
-
-    void enqueue(T element ){
-        if(size == capacity){
-            cout<<"Queue is full"<<endl;
-            return;
-        }
-        data[nextIndex] = element;
-        nextIndex = (nextIndex + 1) % capacity;
-        if(firstIndex == -1){
-            firstIndex = 0;
-        }
-        size++;
-    }
-
-    T dequeue(){
-        if(isEmpty()){
-            cout<<"Queue is empty"<<endl;
-            return T(); // return default value of type T
-        }
-        T element = data[firstIndex];
-        firstIndex = (firstIndex + 1) % capacity;
-        size--;
-        return element;
-    }
-
-    T front(){
-        if(isEmpty()){
-            cout<<"Queue is empty"<<endl;
-            return T(); // return default value of type T
-        }
-        return data[firstIndex];
     }
 };
-
-int main()
-{
-    Queues<int> q(5); // create a queue of integers with capacity 5
-
-    q.enqueue(10);
-    q.enqueue(20);
-    q.enqueue(30);
-    q.enqueue(40);
-    q.enqueue(50);
-
-    cout << "Queue size: " << q.GetSize() << endl;
-
-    cout << "Front element: " << q.front() << endl;
-
-    int dequeued = q.dequeue();
-    cout << "Dequeued element: " << dequeued << endl;
-
-    cout << "Queue size: " << q.GetSize() << endl;
-
-    return 0;
-}
