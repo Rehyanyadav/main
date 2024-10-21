@@ -1,0 +1,7 @@
+
+//* write a  menu driven program in c to implement a linear queue and do the following operations 1 . enqueue 2  dequeue 3 display 4 exit
+//* write a menu driven program in c to implemement a circluar queue and do the following operations 1 enqueue 2 dequeue 3 display 4 exit 
+
+
+
+
