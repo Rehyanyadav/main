@@ -1,0 +1,25 @@
+* MultiThreading 
+
+-> It is a features that allows concurrent execution of 
+two or more processor for max use of the CPU.
+-> Each part of program is called thread.
+
+
+
+Syntax -> std::thread thread_object (callable);
+
+std::thread is the thread class that represent a single thread.
+
+Note -> Once object is created new thread is launched which 
+        will  executed the code specifid in callable.
+
+
+A callable can be any of the five :
+
+1) A function pointer
+2) A lambda Expression
+3) A function object
+4) Non-static Member function
+5) static Member Function 
+
+
