@@ -1,0 +1,166 @@
+Perfect 👍 You’re starting with **Arrays & Strings**, which is the backbone of DSA prep. I’ll build you a **concept → practice path (basic → advanced)** with algorithms, intuition, and problem progression.
+
+---
+
+# 🔹 Arrays & Strings (Foundation → Advanced Roadmap)
+
+## 1. Basics of Arrays & Strings
+
+📌 Concepts:
+
+* Indexing, Traversal, In-place Updates
+* Reversal, Rotation, Prefix/Suffix arrays
+* Basic String operations
+
+✅ Problems:
+
+* **GFG**: Leaders in an array, Equilibrium Point
+* **LC Easy**: Two Sum, Rotate Array
+* **LC Easy**: Remove Duplicates from Sorted Array
+
+👉 *Idea:* Build intuition on traversals and prefix/suffix handling.
+
+---
+
+## 2. Prefix Sum & Difference Arrays
+
+📌 Concepts:
+
+* Prefix sum array
+* Prefix XOR
+* Difference arrays (range updates)
+
+✅ Problems:
+
+* **LC**: Subarray Sum Equals K
+* **LC**: Range Sum Query - Immutable (Prefix Sum)
+* **LC**: Continuous Subarray Sum (Prefix + Hashing)
+* **GFG**: Prefix Sum and Equilibrium Point
+
+👉 *Idea:* Learn how pre-computation converts O(N²) → O(N).
+
+---
+
+## 3. Two Pointers Technique
+
+📌 Concepts:
+
+* Opposite direction (sorted arrays, e.g., sum problems)
+* Same direction (sliding across window)
+* Avoiding nested loops with two pointers
+
+✅ Problems:
+
+* **LC**: Two Sum II (Sorted)
+* **LC**: 3Sum / 4Sum (medium → hard)
+* **LC**: Container With Most Water ⭐
+* **LC**: Valid Palindrome
+* **LC**: Move Zeroes
+
+👉 *Idea:* Shrinking / expanding window, optimal O(N) search.
+
+---
+
+## 4. Sliding Window (Fixed & Variable Length)
+
+📌 Concepts:
+
+* Fixed-size windows (sum/average problems)
+* Variable-size windows (longest/shortest subarray problems)
+
+✅ Problems:
+
+* **LC**: Maximum Average Subarray I (Fixed)
+* **LC**: Minimum Size Subarray Sum
+* **LC**: Longest Substring Without Repeating Characters ⭐
+* **LC**: Longest Repeating Character Replacement
+
+👉 *Idea:* Efficient substring/subarray handling without brute force.
+
+---
+
+## 5. Kadane’s Algorithm & Variants
+
+📌 Concepts:
+
+* Max Subarray Sum (basic Kadane)
+* Circular arrays (Kadane + Min subarray sum)
+* DP extension (max product subarray, max sum with one deletion)
+
+✅ Problems:
+
+* **LC**: Maximum Subarray
+* **LC**: Maximum Sum Circular Subarray
+* **LC**: Maximum Product Subarray
+* **GFG**: Kadane’s Algorithm
+
+👉 *Idea:* DP optimization in O(N) for sum/product problems.
+
+---
+
+## 6. Sorting & Binary Search on Arrays
+
+📌 Concepts:
+
+* Merge Intervals (sorting-based greedy)
+* Binary Search on Answer (like peak element, min capacity)
+* Lower/Upper bounds for searching in ranges
+
+✅ Problems:
+
+* **LC**: Merge Intervals
+* **LC**: Search in Rotated Sorted Array
+* **LC**: Find Minimum in Rotated Sorted Array
+* **LC**: Median of Two Sorted Arrays ⭐⭐
+* **LC**: Kth Largest Element in Array
+
+👉 *Idea:* Extend sorting to interval problems, binary search to decision problems.
+
+---
+
+## 7. Advanced Array/Matrix Concepts
+
+📌 Concepts:
+
+* Trapping Rain Water (prefix/suffix, 2-pointer)
+* Matrix problems (rotate, transpose, search in 2D sorted matrix)
+* Hashing + Arrays combo (frequency-based problems)
+
+✅ Problems:
+
+* **LC**: Trapping Rain Water ⭐
+* **LC**: Rotate Image (Matrix)
+* **LC**: Set Matrix Zeroes
+* **LC**: Spiral Matrix
+* **LC**: Subarray Sum Equals K (Hash + Prefix)
+
+---
+
+# 🚀 How to Advance in These Topics
+
+1. **Step 1 – Learn the Pattern**
+   Don’t just memorize solutions, understand *why* Prefix Sum / Sliding Window works.
+
+2. **Step 2 – Group Problems by Pattern**
+   Example:
+
+   * Prefix Sum problems → batch practice (Subarray Sum, Equilibrium, Continuous Subarray Sum).
+   * Sliding Window problems → batch practice (Longest Substring, Min Size Subarray, Max Avg Subarray).
+
+3. **Step 3 – Move from Easy → Hard**
+   Start with GFG/Easy LC → Medium → Hard (3Sum, Rain Water, Median of Two Sorted Arrays).
+
+4. **Step 4 – Revisit & Generalize**
+   After solving, ask: *Can I apply this template elsewhere?*
+   Example: Kadane → Max Product Subarray → Circular Array → Dynamic Variants.
+
+---
+
+👉 If you want, I can also **make you a topic-wise problem sheet (with direct links)**:
+
+* Prefix Sum set
+* Two Pointers set
+* Sliding Window set
+* Kadane variants set
+
+Do you want me to prepare that **problem sheet with links (LC + GFG)** so you can follow step by step?
